@@ -1,0 +1,7 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Flibrary\inc -I..\startup -I..\user -I..\user\api
+-I F:\2023年上设计\STM32\温度\程序\project\RTE
+-I D:\keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+-I D:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0
+-I D:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o .\objects\jidianqi.o --omf_browse .\objects\jidianqi.crf --depend .\objects\jidianqi.d --feedback ".\Objects\Template.fed" "..\user\api\jidianqi.c"
